@@ -57,7 +57,7 @@ const AboutMe = () => {
 
                     <div className='description text-gray-300'>
                         <p className='text-xl mb-4'>
-                            I am self-taught developer and i am very passionate about improving my coding skills and following coding standards.
+                            I am self-taught developer and passionate about improving my coding skills and following coding standards.
                         </p>
 
                         <p className='text-xl leading-8 mb-4'>

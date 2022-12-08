@@ -43,7 +43,7 @@ const Overview = () => {
         toggleActions: 'play reverse play reset',
       }
     });
-    tl2.fromTo('.role',{
+    tl2.fromTo('.role', {
       x: -200,
       opacity: 0
     }, {
@@ -62,9 +62,9 @@ const Overview = () => {
         toggleActions: 'play reverse play reset',
       }
     });
-    tl3.fromTo('.download',{
+    tl3.fromTo('.download', {
       opacity: 0,
-    },{
+    }, {
       opacity: 1,
       delay: 1.8,
       duration: 1.8,
@@ -79,10 +79,10 @@ const Overview = () => {
         toggleActions: 'play reverse play reset',
       }
     });
-    tl4.fromTo('.hero',{
+    tl4.fromTo('.hero', {
       x: 220,
       opacity: 0,
-    },{
+    }, {
       x: 0,
       opacity: 1,
       delay: 0.5,
@@ -98,10 +98,10 @@ const Overview = () => {
         toggleActions: 'play reverse play reset',
       }
     });
-    tl5.fromTo('.find-me',{
+    tl5.fromTo('.find-me', {
       y: -20,
       opacity: 0,
-    },{
+    }, {
       y: 0,
       opacity: 1,
       delay: 0.5,
