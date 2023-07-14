@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.content {
+    min-height: 50vh;
+}
+
+.aboutme {
+    min-height: 40vh;
+}
+
+.contact {
+    min-height: 30vh;
+}
+
+.footer {
+    border-top: 1px solid gray;
+}

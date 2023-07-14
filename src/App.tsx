@@ -1,25 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import SidebarProvider from '@/context/sidebar'
+import AppHeader from '@/components/header'
+import AppSidebar from '@/components/sidebar'
+import AppFooter from '@/components/footer'
+import MainPage from '@/pages'
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <SidebarProvider>
+      <main>
+        <div className='flex flex-row'>
+          <div className='w-full h-screen'>
+            <div className='min-h-screen'>
+              <AppHeader />
+              <MainPage />
+              <AppFooter />
+            </div>
+          </div>
+          <AppSidebar />
+        </div>
+      </main>
+    </SidebarProvider>
   );
 }
 
