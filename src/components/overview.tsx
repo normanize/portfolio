@@ -7,7 +7,7 @@ export default function Overview() {
     }
 
     const download = async () => {
-        window.open("https://drive.google.com/u/1/uc?id=1CU0WUG1I4um8xJfgBhnC1tPekfMsGRYv&export=download")
+        window.open("https://drive.google.com/u/1/uc?id=1siIzlO6iTTrXLPZKd4SC7cSLyvU0Ngxh&export=download")
     }
 
     return (
