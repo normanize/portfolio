@@ -26,7 +26,7 @@ export default function Overview() {
                             web apps, and backend API's from scratch.
                         </p>
 
-                        <div className='flex flex-col-reverse md:flex-row justify-center md:justify-start items-center md:space-x-6'>
+                        <div className='flex flex-col-reverse md:flex-row justify-center lg:justify-start items-center md:space-x-6'>
                             <button
                                 onClick={hireMe}
                                 className="hover:text-red-800 text-xl font-bold border-2 border-black hover:border-red-800 rounded-lg py-3 px-10"
