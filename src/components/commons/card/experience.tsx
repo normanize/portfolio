@@ -2,8 +2,9 @@ type ExperienceCardProps = {
     company: string
     position: string
     start: string
-    end: string | null
-    is_present: boolean
+    end?: string
+    is_present: boolean,
+    className?: string
 }
 
 export default function ExperienceCard({
@@ -11,10 +12,11 @@ export default function ExperienceCard({
     position,
     start,
     end,
-    is_present
+    is_present,
+    className
 }: ExperienceCardProps) {
     return (
-        <div className="border-1 border-red-300">
+        <div className={`border-1 border-red-300 ${className}`}>
             <p className="text-2xl">{company}</p>
             <p className="text-lg text-gray-800">{position}</p>
             <p className="text-sm text-gray-800">

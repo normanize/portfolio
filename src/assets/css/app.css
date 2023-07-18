@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.content {
+.overview {
     min-height: 50vh;
 }
 
@@ -10,8 +10,12 @@
     min-height: 40vh;
 }
 
-.contact {
-    min-height: 30vh;
+.experience {
+    min-height: 50vh;
+}
+
+.projects {
+    min-height: 70vh;
 }
 
 .footer {

@@ -9,18 +9,12 @@ function App() {
 
   return (
     <SidebarProvider>
-      <main>
-        <div className='flex flex-row'>
-          <div className='w-full h-screen'>
-            <div className='min-h-screen'>
-              <AppHeader />
-              <MainPage />
-              <AppFooter />
-            </div>
-          </div>
-          <AppSidebar />
-        </div>
+      <AppHeader />
+      <main className='w-full min-h-screen scroll-smooth'>
+        <MainPage />
+        <AppFooter />
       </main>
+      <AppSidebar />
     </SidebarProvider>
   );
 }

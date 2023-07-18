@@ -9,7 +9,8 @@ type ProjectCardProps = {
     image_url: string
     link: string
     attributes: IAttributes
-    platform: string[]
+    platform: string[],
+    className?: string
 }
 
 export default function ProjectCard({
@@ -17,7 +18,8 @@ export default function ProjectCard({
     image_url,
     link,
     attributes,
-    platform
+    platform,
+    className,
 }: ProjectCardProps) {
 
     const navigate = () => {
@@ -27,7 +29,7 @@ export default function ProjectCard({
     return (
         <div
             className={`flex items-center justify-center h-60 hover:scale-105 ease-in duration-500 
-            overflow-hidden border shadow-sm hover:shadow-lg rounded-lg p-4 cursor-pointer ${attributes.customClass}`}
+            overflow-hidden border shadow-sm hover:shadow-lg rounded-lg p-4 cursor-pointer ${attributes.customClass} ${className}`}
             onClick={navigate}
         >
                 <img src={image_url} width={attributes.width} height={attributes.height} />
