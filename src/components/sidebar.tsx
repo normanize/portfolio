@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useContext } from "react"
+import React, { useContext } from "react"
 import { SidebarContext } from '@/context/sidebar'
 import { FaTimes } from 'react-icons/fa';
 

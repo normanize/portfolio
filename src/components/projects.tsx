@@ -56,7 +56,7 @@ export default function Projects() {
 
     return (
         <div id="projects" className='flex justify-center items-center projects p-8'>
-            <div className="max-w-screen-xl mx-auto">
+            <div className="w-full max-w-screen-xl mx-auto">
                 <div className='mb-20'>
                     <div className="flex flex-col sm:flex-row justify-between items-center mb-20">
                         <h3 className="project-to-lr text-4xl font-bold text-red-700 mb-10 sm:mb-0 tracking-wider">Projects</h3>
