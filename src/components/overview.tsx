@@ -11,7 +11,7 @@ export default function Overview() {
     }
 
     const download = async () => {
-        window.open("https://drive.google.com/u/1/uc?id=1siIzlO6iTTrXLPZKd4SC7cSLyvU0Ngxh&export=download")
+        window.open("https://drive.google.com/u/1/uc?id=1hucAcRgfjoxLEl0TP9rgkuNTHhSA5of1&export=download")
     }
 
     useLayoutEffect(() => {

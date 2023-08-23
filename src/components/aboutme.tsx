@@ -62,7 +62,7 @@ export default function AboutMe() {
                     <h3 className="aboutme-to-bottom text-4xl font-bold text-red-700 mb-10 tracking-wider">About Me</h3>
                     <div>
                         <p className="aboutme-to-right-left-1 text-gray-800 text-2xl mb-4">
-                            I am a self-taught developer who is passionate about improving my coding skills and following coding standards.
+                            I am an experienced Web & Mobile developer who is passionate about improving my coding skills and following coding standards.
                         </p>
                         <p className="aboutme-to-right-left-2 text-gray-800 text-2xl mb-4">
                             I developed cross-platform mobile apps, custom web apps, and backend API's from scratch.
